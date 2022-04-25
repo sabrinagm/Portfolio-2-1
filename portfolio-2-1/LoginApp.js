@@ -23,6 +23,16 @@ function Trivia() {
                 {correct: false, info: "Mountain Dew"},
                 {correct: true, info: "Coca Cola"},
             ]
+        },
+        {
+            key: 3,
+            title: "What is the only edible food that never goes bad?",
+            answers: [
+                {correct: false, info: "Peanuts"},
+                {correct: false, info: "Ginger"},
+                {correct: true, info: "Honey"},
+                {correct: false, info: "Beans"},
+            ]
         }
     ]
     return(
