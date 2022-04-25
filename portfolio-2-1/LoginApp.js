@@ -2,8 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import { useState, useCallback } from 'react';
 
-import LogOut from './LogOut';
+function LogOut() {
 
+    return(
+        <Button>Log Out</Button>
+    )
+}
 
 function LoginApp() {
     //Sets login state.
