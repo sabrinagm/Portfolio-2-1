@@ -3,7 +3,11 @@ import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import { useState, useCallback } from 'react';
 
 function Trivia() {
-
+    return(
+        <View>
+            <Text>Here is your trivia question for the day:</Text>
+        </View>
+    )
 }
 
 function LoginApp() {
@@ -60,8 +64,9 @@ const styles = StyleSheet.create({
   errorText: {
     color: "red",
   },
-  buttonStyle: {
+  welcomeMessage: {
     padding: 20,
+    fontSize: 25,
   }
 });
 
