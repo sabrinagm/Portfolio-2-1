@@ -14,27 +14,11 @@ function Trivia() {
                     {correct: false, info: "Arctic Ocean"},
                 ]
             },
-            {
-                key: 2,
-                title: "What was the first soda in space?",
-                answers: [
-                    {correct: false, info: "Pepsi"},
-                    {correct: false, info: "Sprite"},
-                    {correct: false, info: "Mountain Dew"},
-                    {correct: true, info: "Coca Cola"},
-                ]
-            },
-            {
-                key: 3,
-                title: "What is the only edible food that never goes bad?",
-                answers: [
-                    {correct: false, info: "Peanuts"},
-                    {correct: false, info: "Ginger"},
-                    {correct: true, info: "Honey"},
-                    {correct: false, info: "Beans"},
-                ]
-            },
         ]
+    
+    let [question, setQuestion] = useState(0);
+    let [score, setScore] = useState(false);
+
 
     return(
         <View>
