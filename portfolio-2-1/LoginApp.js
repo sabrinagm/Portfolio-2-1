@@ -2,39 +2,40 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import { useState, useCallback } from 'react';
 
-function Notes() {
-    let triviaQuestions = [
-        {
-            key: 1,
-            title: "Which is the world's largest ocean?",
-            answers: [
-                {correct: false, info: "Atlantic Ocean"},
-                {correct: true, info: "Pacific Ocean"},
-                {correct: false, info: "Indian Ocean"},
-                {correct: false, info: "Arctic Ocean"},
-            ]
-        },
-        {
-            key: 2,
-            title: "What was the first soda in space?",
-            answers: [
-                {correct: false, info: "Pepsi"},
-                {correct: false, info: "Sprite"},
-                {correct: false, info: "Mountain Dew"},
-                {correct: true, info: "Coca Cola"},
-            ]
-        },
-        {
-            key: 3,
-            title: "What is the only edible food that never goes bad?",
-            answers: [
-                {correct: false, info: "Peanuts"},
-                {correct: false, info: "Ginger"},
-                {correct: true, info: "Honey"},
-                {correct: false, info: "Beans"},
-            ]
-        },
-    ]
+function Trivia() {
+        let triviaQuestions = [
+            {
+                key: 1,
+                title: "Which is the world's largest ocean?",
+                answers: [
+                    {correct: false, info: "Atlantic Ocean"},
+                    {correct: true, info: "Pacific Ocean"},
+                    {correct: false, info: "Indian Ocean"},
+                    {correct: false, info: "Arctic Ocean"},
+                ]
+            },
+            {
+                key: 2,
+                title: "What was the first soda in space?",
+                answers: [
+                    {correct: false, info: "Pepsi"},
+                    {correct: false, info: "Sprite"},
+                    {correct: false, info: "Mountain Dew"},
+                    {correct: true, info: "Coca Cola"},
+                ]
+            },
+            {
+                key: 3,
+                title: "What is the only edible food that never goes bad?",
+                answers: [
+                    {correct: false, info: "Peanuts"},
+                    {correct: false, info: "Ginger"},
+                    {correct: true, info: "Honey"},
+                    {correct: false, info: "Beans"},
+                ]
+            },
+        ]
+
     return(
         <View>
             <Text>Here is your trivia question for the day:</Text>
