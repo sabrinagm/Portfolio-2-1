@@ -33,6 +33,7 @@ function LoginApp() {
       loggedIn ?
       <View style={styles.container}>
         <Text>Welcome, {text}!</Text>
+        <Button>Log Out</Button>
         <LogOut></LogOut>
       </View>
       :
@@ -64,7 +65,7 @@ const styles = StyleSheet.create({
     color: "red",
   },
   buttonStyle: {
-    padding: 10,
+    padding: 20,
   }
 });
 
