@@ -62,6 +62,9 @@ const styles = StyleSheet.create({
   },
   errorText: {
     color: "red",
+  },
+  buttonStyle: {
+    padding: 10,
   }
 });
 
