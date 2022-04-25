@@ -3,6 +3,18 @@ import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import { useState, useCallback } from 'react';
 
 function Trivia() {
+    let triviaQuestions = [
+        {
+            key: 1,
+            title: "Which is the world's largest ocean?",
+            answers: [
+                {correct: false, info: "Atlantic Ocean"},
+                {correct: false, info: "Atlantic Ocean"},
+                {correct: false, info: "Atlantic Ocean"},
+                {correct: false, info: "Atlantic Ocean"},
+            ]
+        }
+    ]
     return(
         <View>
             <Text>Here is your trivia question for the day:</Text>
