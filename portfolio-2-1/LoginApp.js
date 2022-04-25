@@ -27,7 +27,6 @@ function LoginApp() {
       loggedIn ?
       <View style={styles.container}>
         <Text>Welcome, {text}!</Text>
-        <LogOut></LogOut>
       </View>
       :
       <View style={styles.container}>
