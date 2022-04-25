@@ -33,7 +33,7 @@ function LoginApp() {
         return (
       loggedIn ?
       <View style={styles.container}>
-        <Text>Welcome, {text}!</Text>
+        <Text style={styles.welcomeMessage}>Welcome, {text}!</Text>
         <Trivia></Trivia>
       </View>
       :
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   },
   welcomeMessage: {
     padding: 20,
-    fontSize: 25,
+    fontSize: 20,
   }
 });
 
