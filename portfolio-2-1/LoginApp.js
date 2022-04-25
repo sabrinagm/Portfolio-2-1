@@ -13,6 +13,16 @@ function Trivia() {
                 {correct: false, info: "Indian Ocean"},
                 {correct: false, info: "Arctic Ocean"},
             ]
+        },
+        {
+            key: 2,
+            title: "What was the first soda in space?",
+            answers: [
+                {correct: false, info: "Pepsi"},
+                {correct: false, info: "Sprite"},
+                {correct: false, info: "Mountain Dew"},
+                {correct: true, info: "Coca Cola"},
+            ]
         }
     ]
     return(
