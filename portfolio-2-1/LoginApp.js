@@ -9,9 +9,9 @@ function Trivia() {
             title: "Which is the world's largest ocean?",
             answers: [
                 {correct: false, info: "Atlantic Ocean"},
-                {correct: false, info: "Atlantic Ocean"},
-                {correct: false, info: "Atlantic Ocean"},
-                {correct: false, info: "Atlantic Ocean"},
+                {correct: true, info: "Pacific Ocean"},
+                {correct: false, info: "Indian Ocean"},
+                {correct: false, info: "Arctic Ocean"},
             ]
         }
     ]
