@@ -2,6 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import { useState, useCallback } from 'react';
 
+import LogOut from './LogOut';
+
 
 function LoginApp() {
     //Sets login state.
@@ -27,6 +29,7 @@ function LoginApp() {
       loggedIn ?
       <View style={styles.container}>
         <Text>Welcome, {text}!</Text>
+        <LogOut></LogOut>
       </View>
       :
       <View style={styles.container}>
